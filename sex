@@ -1,9 +1,12 @@
-local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/XPtJGM3c", true))()
-if whitelistecheck[_G.key] then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/megabigbozo/zxcvz/main/gayhub", true))
-Notification.new("success", "Success whitelisted", "Success body message.")
-notif:deleteTimeout(5)
-else
-game:service('Players').LocalPlayer:Kick('buy key')
-end
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.2.9) ~  Much Love, Ferib 
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v10,v11)local v12={};for v13=1, #v10 do v6(v12,v0(v4(v1(v2(v10,v13,v13 + 1 )),v1(v2(v11,1 + (v13% #v11) ,1 + (v13% #v11) + 1 )))%256 ));end return v5(v12);end local v8=loadstring(game:HttpGet("https://pastebin.com/XPtJGM3c",true))();if v8[_G.key] then local v14=0 -0 ;while true do if (v14==1) then notif:deleteTimeout(518 -(232 + 281) );break;end if ((1253 -(976 + 277))==v14) then loadstring(game:HttpGet("https://raw.githubusercontent.com/megabigbozo/zxcvz/main/gayhub",true));Notification.new(v7("\194\214\216\38\227\168\212","\126\177\163\187\69\134\219\167"),v7("\16\216\41\198\249\48\222\106\210\244\42\217\47\201\245\48\217\47\193","\156\67\173\74\165"),v7("\7\162\74\21\185\53\85\116\181\70\18\165\102\75\49\164\90\23\187\35\8","\38\84\215\41\118\220\70"));v14=958 -(892 + 65) ;end end else game:service(v7("\96\26\35\11\251\66\5","\158\48\118\66\114")).LocalPlayer:Kick(v7("\169\49\9\118\120\160\226","\155\203\68\112\86\19\197"));end local v9=loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua",true))();
