@@ -1,6 +1,6 @@
 local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/XPtJGM3c", true))()
 if whitelistecheck[_G.key] then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/megabigbozo/megabigscripthub/main/gitler", true))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/megabigbozo/zxcvz/main/gayhub", true))
 Notification.new("success", "Success whitelisted", "Success body message.")
 notif:deleteTimeout(5)
 else
